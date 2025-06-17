@@ -13,7 +13,8 @@ This project marks my first hands-on experience with **OpenGL**. After reading *
 - **GLFW** – Window creation, context management, and keyboard input  
 - **GLAD** – OpenGL function loader to interface with GPU features  
 
-
+compile with command:
+**gcc pingpong.c glad/src/glad.c -Iinclude -lglfw -ldl -lGL -o pingpong**
 
 ### Features  
 - Classic two-player Ping Pong gameplay  
